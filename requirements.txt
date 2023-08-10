@@ -1,4 +1,6 @@
-
+requests == 3.11.1
+beautifullsoup4 == 4.10.0
+lxml == 4.8.0
 fastapi == 0.101.0
 uvicorn == 0.23.2
 gunicorn == 20.1.0
