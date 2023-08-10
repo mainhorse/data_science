@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 app = FastAPI()
 
+'''
 origins = ["*"]
 app.add_middleware(
      CORSMiddleware,
@@ -11,6 +12,7 @@ app.add_middleware(
      allow_methods = ["*"],
      allow_headers = ["*"]
 )
+'''
 
 df = pd.read_csv('movies_dataset_ETL.csv',delimiter=',', header=0)
 
